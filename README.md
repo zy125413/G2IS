@@ -22,13 +22,7 @@ The implementation follows the main idea of G2IS:
    - **Consistency with Core Knowledge**
 4. **Fallback re-anchoring**: When local walking cannot continue without violating constraints, the algorithm falls back to a global search using the current validation knowledge direction.
 
-## ⚙️ Dependencies & Installation
 
-```bash
-git clone [https://github.com/your-username/G2IS.git](https://github.com/your-username/G2IS.git)
-cd G2IS
-pip install torch numpy scikit-learn tqdm
-```
 
 ## 🧠 Training and Gradient Setting
 
