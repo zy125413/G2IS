@@ -55,7 +55,7 @@ The script expects the following precomputed inputs:
 - Original training data (`.jsonl`)
 
 ```bash
-python select.py \
+python gradient_walk.py \
   --train_gradients_file path/to/train_gradients.pt \
   --validation_gradients_file path/to/val_gradients.pt \
   --graph path/to/graph.npy \
